@@ -2,8 +2,8 @@ from tkinter import*
 root = Tk()
 
 # Text Input
-e = Entry (root,width=35,border=5)
-e.grid(row=0,column=0,padx=30,pady=30)
+e = Entry (root,width=50,border=10)
+e.grid(row=0,column=0,columnspan=3,padx=10,pady=10)
 
 list_of_numbers=[]
 #functions to get number
