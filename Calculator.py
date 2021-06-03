@@ -21,7 +21,9 @@ def sum_of_no():
 def equals():
   global sum
   num1=e.get()
-  list_of_numbers.append(int(num1))
+  if num1 is int:
+    list_of_numbers.append(int(num1))
+
   e.delete(0,END)
 
   SUM = 0
