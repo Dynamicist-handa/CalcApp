@@ -44,7 +44,9 @@ button2=Button(root,text="2",padx=30,pady=30,command=lambda:num_input(2)).grid(r
 button1=Button(root,text="1",padx=30,pady=30,command=lambda:num_input(1)).grid(row=3,column=2)
 
 button0=Button(root,text="0",padx=30,pady=30,command=lambda:num_input(0)).grid(row=4,column=0)
-button_add=Button(root,text="+",padx=30,pady=30,command=sum_of_no()).grid(row=4,column=1)
+button_add=Button(root,text="+",padx=30,pady=30,command=\
+  
+  sum_of_no()).grid(row=4,column=1)
 button_clear=Button(root,text="clear",padx=30,pady=30,command=clear_val()).grid(row=5,column=0)
 button_equal=Button(root,text="=",padx=30,pady=30,command=equals()).grid(row=5,column=1)
 
